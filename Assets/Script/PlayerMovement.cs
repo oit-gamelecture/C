@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
 
-        if (collision.gameObject.name == "Cube")
+        if (collision.gameObject.name == "enemy")
         {
             hit = true;
             animator.SetBool("Hit", hit);
